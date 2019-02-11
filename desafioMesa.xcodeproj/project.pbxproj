@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187B33E98463FED594A31558 /* Pods_desafioMesa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95571057F2943A7E132469C5 /* Pods_desafioMesa.framework */; };
+		524F5CFC220B2D3000E98540 /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F5CFB220B2D3000E98540 /* PlaceDetailsView.swift */; };
+		524F5CFE220B2D7A00E98540 /* PlaceDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524F5CFD220B2D7A00E98540 /* PlaceDetailsView.xib */; };
+		524F5D03220C6E7800E98540 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F5D02220C6E7800E98540 /* UIView+Extension.swift */; };
+		524F5D052211015A00E98540 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F5D042211015A00E98540 /* FilterViewController.swift */; };
+		524F5D072211075300E98540 /* FilterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F5D062211075300E98540 /* FilterOptions.swift */; };
+		5258DF972208D54B00A01F24 /* MyProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DF962208D54B00A01F24 /* MyProfileRequest.swift */; };
+		5258DF992208DDBB00A01F24 /* PlaceIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DF982208DDBB00A01F24 /* PlaceIcon.swift */; };
+		5258DF9B2209BA6500A01F24 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DF9A2209BA6500A01F24 /* SpinnerViewController.swift */; };
+		5258DFA32209CAFC00A01F24 /* PlaceLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFA22209CAFC00A01F24 /* PlaceLocationsViewController.swift */; };
+		5258DFA52209CB4400A01F24 /* PlaceLocationsViewController+CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFA42209CB4400A01F24 /* PlaceLocationsViewController+CLLocation.swift */; };
+		5258DFA72209DD2200A01F24 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFA62209DD2200A01F24 /* LocationDetails.swift */; };
+		5258DFAB2209E23600A01F24 /* PlaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFAA2209E23600A01F24 /* PlaceButton.swift */; };
+		5258DFAE2209FDC600A01F24 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFAD2209FDC600A01F24 /* Profile.swift */; };
+		5258DFB02209FE7400A01F24 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFAF2209FE7400A01F24 /* AuthenticationService.swift */; };
+		5258DFB2220A100200A01F24 /* ProfileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFB1220A100200A01F24 /* ProfileUtil.swift */; };
+		5258DFB4220A2FE600A01F24 /* PlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFB3220A2FE600A01F24 /* PlacesService.swift */; };
+		5258DFB6220A621E00A01F24 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFB5220A621E00A01F24 /* ResponseModels.swift */; };
+		5258DFB8220AB82500A01F24 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFB7220AB82500A01F24 /* CLLocation+Extension.swift */; };
+		5258DFBC220AE52800A01F24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DFBB220AE52800A01F24 /* Constants.swift */; };
+		52A7593D2208AA2E005052EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7593C2208AA2E005052EF /* AppDelegate.swift */; };
+		52A7593F2208AA2F005052EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7593E2208AA2F005052EF /* LoginViewController.swift */; };
+		52A759422208AA2F005052EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A759402208AA2F005052EF /* Main.storyboard */; };
+		52A759442208AA31005052EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A759432208AA31005052EF /* Assets.xcassets */; };
+		52A759472208AA31005052EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A759452208AA31005052EF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		524F5CFB220B2D3000E98540 /* PlaceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
+		524F5CFD220B2D7A00E98540 /* PlaceDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceDetailsView.xib; sourceTree = "<group>"; };
+		524F5D02220C6E7800E98540 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		524F5D042211015A00E98540 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		524F5D062211075300E98540 /* FilterOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptions.swift; sourceTree = "<group>"; };
+		5258DF962208D54B00A01F24 /* MyProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileRequest.swift; sourceTree = "<group>"; };
+		5258DF982208DDBB00A01F24 /* PlaceIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceIcon.swift; sourceTree = "<group>"; };
+		5258DF9A2209BA6500A01F24 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		5258DFA22209CAFC00A01F24 /* PlaceLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLocationsViewController.swift; sourceTree = "<group>"; };
+		5258DFA42209CB4400A01F24 /* PlaceLocationsViewController+CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceLocationsViewController+CLLocation.swift"; sourceTree = "<group>"; };
+		5258DFA62209DD2200A01F24 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		5258DFAA2209E23600A01F24 /* PlaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceButton.swift; sourceTree = "<group>"; };
+		5258DFAD2209FDC600A01F24 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5258DFAF2209FE7400A01F24 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		5258DFB1220A100200A01F24 /* ProfileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUtil.swift; sourceTree = "<group>"; };
+		5258DFB3220A2FE600A01F24 /* PlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesService.swift; sourceTree = "<group>"; };
+		5258DFB5220A621E00A01F24 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		5258DFB7220AB82500A01F24 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		5258DFBB220AE52800A01F24 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52A759392208AA2E005052EF /* desafioMesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioMesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A7593C2208AA2E005052EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52A7593E2208AA2F005052EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52A759412208AA2F005052EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52A759432208AA31005052EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A759462208AA31005052EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52A759482208AA31005052EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C26E68B246FDB8CD9A72B /* Pods-desafioMesa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafioMesa.release.xcconfig"; path = "Target Support Files/Pods-desafioMesa/Pods-desafioMesa.release.xcconfig"; sourceTree = "<group>"; };
+		95571057F2943A7E132469C5 /* Pods_desafioMesa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafioMesa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5251F64F01B81B68D51FFB4 /* Pods-desafioMesa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafioMesa.debug.xcconfig"; path = "Target Support Files/Pods-desafioMesa/Pods-desafioMesa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A759362208AA2E005052EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B33E98463FED594A31558 /* Pods_desafioMesa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524F5D00220B641800E98540 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5258DFB1220A100200A01F24 /* ProfileUtil.swift */,
+				5258DFBB220AE52800A01F24 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		524F5D01220C5F2300E98540 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5258DF9A2209BA6500A01F24 /* SpinnerViewController.swift */,
+				52A7593E2208AA2F005052EF /* LoginViewController.swift */,
+				5258DFA22209CAFC00A01F24 /* PlaceLocationsViewController.swift */,
+				524F5D042211015A00E98540 /* FilterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5258DF9C2209C43600A01F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5258DF982208DDBB00A01F24 /* PlaceIcon.swift */,
+				5258DFA62209DD2200A01F24 /* LocationDetails.swift */,
+				5258DFAD2209FDC600A01F24 /* Profile.swift */,
+				5258DFB5220A621E00A01F24 /* ResponseModels.swift */,
+				524F5D062211075300E98540 /* FilterOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5258DF9D2209C43C00A01F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5258DFAA2209E23600A01F24 /* PlaceButton.swift */,
+				524F5CFB220B2D3000E98540 /* PlaceDetailsView.swift */,
+				524F5CFD220B2D7A00E98540 /* PlaceDetailsView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5258DFA12209CA8B00A01F24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5258DFA42209CB4400A01F24 /* PlaceLocationsViewController+CLLocation.swift */,
+				5258DFB7220AB82500A01F24 /* CLLocation+Extension.swift */,
+				524F5D02220C6E7800E98540 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5258DFAC2209FD4400A01F24 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5258DF962208D54B00A01F24 /* MyProfileRequest.swift */,
+				5258DFAF2209FE7400A01F24 /* AuthenticationService.swift */,
+				5258DFB3220A2FE600A01F24 /* PlacesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52A759302208AA2E005052EF = {
+			isa = PBXGroup;
+			children = (
+				52A7593B2208AA2E005052EF /* desafioMesa */,
+				52A7593A2208AA2E005052EF /* Products */,
+				847582D14A0F6ACEA3B6E388 /* Pods */,
+				F07453274FFB350D0AF65EA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52A7593A2208AA2E005052EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A759392208AA2E005052EF /* desafioMesa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A7593B2208AA2E005052EF /* desafioMesa */ = {
+			isa = PBXGroup;
+			children = (
+				52A7593C2208AA2E005052EF /* AppDelegate.swift */,
+				5258DFAC2209FD4400A01F24 /* Services */,
+				524F5D01220C5F2300E98540 /* ViewControllers */,
+				5258DF9C2209C43600A01F24 /* Model */,
+				5258DF9D2209C43C00A01F24 /* View */,
+				5258DFA12209CA8B00A01F24 /* Extensions */,
+				524F5D00220B641800E98540 /* Utils */,
+				52A759402208AA2F005052EF /* Main.storyboard */,
+				52A759452208AA31005052EF /* LaunchScreen.storyboard */,
+				52A759482208AA31005052EF /* Info.plist */,
+				52A759432208AA31005052EF /* Assets.xcassets */,
+			);
+			path = desafioMesa;
+			sourceTree = "<group>";
+		};
+		847582D14A0F6ACEA3B6E388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5251F64F01B81B68D51FFB4 /* Pods-desafioMesa.debug.xcconfig */,
+				779C26E68B246FDB8CD9A72B /* Pods-desafioMesa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F07453274FFB350D0AF65EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95571057F2943A7E132469C5 /* Pods_desafioMesa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A759382208AA2E005052EF /* desafioMesa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A7594B2208AA31005052EF /* Build configuration list for PBXNativeTarget "desafioMesa" */;
+			buildPhases = (
+				F343F9DFB07525CFDF55C2A5 /* [CP] Check Pods Manifest.lock */,
+				52A759352208AA2E005052EF /* Sources */,
+				52A759362208AA2E005052EF /* Frameworks */,
+				52A759372208AA2E005052EF /* Resources */,
+				A48E59AB22CCF3AC42EA2ECA /* [CP] Embed Pods Frameworks */,
+				1B82974391A7D1FC0E6DBE1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioMesa;
+			productName = desafioMesa;
+			productReference = 52A759392208AA2E005052EF /* desafioMesa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A759312208AA2E005052EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Raissa X Morais";
+				TargetAttributes = {
+					52A759382208AA2E005052EF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 52A759342208AA2E005052EF /* Build configuration list for PBXProject "desafioMesa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A759302208AA2E005052EF;
+			productRefGroup = 52A7593A2208AA2E005052EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A759382208AA2E005052EF /* desafioMesa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A759372208AA2E005052EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A759472208AA31005052EF /* LaunchScreen.storyboard in Resources */,
+				524F5CFE220B2D7A00E98540 /* PlaceDetailsView.xib in Resources */,
+				52A759442208AA31005052EF /* Assets.xcassets in Resources */,
+				52A759422208AA2F005052EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B82974391A7D1FC0E6DBE1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafioMesa/Pods-desafioMesa-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafioMesa/Pods-desafioMesa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48E59AB22CCF3AC42EA2ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafioMesa/Pods-desafioMesa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafioMesa/Pods-desafioMesa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F343F9DFB07525CFDF55C2A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafioMesa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A759352208AA2E005052EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5258DF992208DDBB00A01F24 /* PlaceIcon.swift in Sources */,
+				52A7593F2208AA2F005052EF /* LoginViewController.swift in Sources */,
+				52A7593D2208AA2E005052EF /* AppDelegate.swift in Sources */,
+				5258DFB02209FE7400A01F24 /* AuthenticationService.swift in Sources */,
+				524F5D072211075300E98540 /* FilterOptions.swift in Sources */,
+				5258DFB8220AB82500A01F24 /* CLLocation+Extension.swift in Sources */,
+				5258DFA72209DD2200A01F24 /* LocationDetails.swift in Sources */,
+				5258DFAB2209E23600A01F24 /* PlaceButton.swift in Sources */,
+				5258DFBC220AE52800A01F24 /* Constants.swift in Sources */,
+				5258DFB6220A621E00A01F24 /* ResponseModels.swift in Sources */,
+				5258DF972208D54B00A01F24 /* MyProfileRequest.swift in Sources */,
+				5258DFB2220A100200A01F24 /* ProfileUtil.swift in Sources */,
+				5258DFA52209CB4400A01F24 /* PlaceLocationsViewController+CLLocation.swift in Sources */,
+				524F5D03220C6E7800E98540 /* UIView+Extension.swift in Sources */,
+				524F5D052211015A00E98540 /* FilterViewController.swift in Sources */,
+				524F5CFC220B2D3000E98540 /* PlaceDetailsView.swift in Sources */,
+				5258DFAE2209FDC600A01F24 /* Profile.swift in Sources */,
+				5258DFB4220A2FE600A01F24 /* PlacesService.swift in Sources */,
+				5258DFA32209CAFC00A01F24 /* PlaceLocationsViewController.swift in Sources */,
+				5258DF9B2209BA6500A01F24 /* SpinnerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52A759402208AA2F005052EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A759412208AA2F005052EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52A759452208AA31005052EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A759462208AA31005052EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A759492208AA31005052EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A7594A2208AA31005052EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A7594C2208AA31005052EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5251F64F01B81B68D51FFB4 /* Pods-desafioMesa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K54697WATK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = desafioMesa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmorais.desafioMesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "desafioMesa/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A7594D2208AA31005052EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779C26E68B246FDB8CD9A72B /* Pods-desafioMesa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K54697WATK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = desafioMesa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxmorais.desafioMesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "desafioMesa/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A759342208AA2E005052EF /* Build configuration list for PBXProject "desafioMesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A759492208AA31005052EF /* Debug */,
+				52A7594A2208AA31005052EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A7594B2208AA31005052EF /* Build configuration list for PBXNativeTarget "desafioMesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A7594C2208AA31005052EF /* Debug */,
+				52A7594D2208AA31005052EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A759312208AA2E005052EF /* Project object */;
+}

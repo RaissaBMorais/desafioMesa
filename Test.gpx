@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx>
+    <name>test on GPSies.com</name>
+    <trkseg>
+      <trkpt lat="-8.04161651" lon="-34.8889088">
+        <ele>11.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04225391" lon="-34.8898959">
+        <ele>10.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04282757" lon="-34.8907542">
+        <ele>15.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04212643" lon="-34.8911833">
+        <ele>16.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04134031" lon="-34.8915696">
+        <ele>15.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04010800" lon="-34.8920845">
+        <ele>15.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.03981054" lon="-34.8923206">
+        <ele>14.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04061792" lon="-34.8931360">
+        <ele>13.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04163776" lon="-34.8939299">
+        <ele>18.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04248763" lon="-34.8946595">
+        <ele>17.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04299754" lon="-34.8957753">
+        <ele>22.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04340123" lon="-34.8969984">
+        <ele>16.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04352871" lon="-34.8972344">
+        <ele>13.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04274259" lon="-34.8977279">
+        <ele>17.000000</ele>
+      </trkpt>
+      <trkpt lat="-8.04168025" lon="-34.8980927">
+        <ele>11.000000</ele>
+      </trkpt>
+</gpx>
+
